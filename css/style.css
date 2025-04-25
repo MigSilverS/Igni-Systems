@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.margin {
+    margin: 5rem 0 !important; 
+}
+
+.hd {
+
+    & .btn {
+        background-color: white;
+
+        &:hover {
+            background-color: #bdbbbb;
+            transition: 0.5s;
+        }
+    }
+}
