@@ -24,3 +24,16 @@
         }
     }
 }
+
+.contato {
+    background-color: #9e9e9e;
+
+    & .btn {
+        background-color: white;
+
+        &:hover {
+            background-color: #bdbbbb;
+            transition: 0.5s;
+        }
+    }
+}
